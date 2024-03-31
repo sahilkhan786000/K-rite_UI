@@ -1,11 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
-
+import { Box } from '@mui/material';
+import Sidebar from './components/Sidebar';
+import Main from './components/Main';
 function App() {
   return (
-    <div>
+    <Box sx={{ display: 'flex' }}>
+
+    <Box sx = {{ padding : '10px'}}><Sidebar/>
+    </Box>
       
-    </div>
+     <Box sx = {{ padding : '10px'}}>
+     <Main/>
+     </Box>
+  
+
+    </Box>
   );
 }
 
