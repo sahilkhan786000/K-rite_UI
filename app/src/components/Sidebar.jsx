@@ -27,7 +27,8 @@ export default function Sidebar() {
     <Box sx= {{ padding : '5px',display: 'flex' , flexDirection: 'column',backgroundColor: 'white', minheight: '100vh', minWidth:'15vw', borderRadius: '10px',  border: '1px solid #CCCCCC'}}>
 
     <Box sx = {{ padding : '10px', display: 'flex', gap: '20px', borderRadius: '10px', border : '1px solid #CCCCCC'}}>
-        <Box sx={{height : '90%', width : '15%', padding : '5px', backgroundColor: 'black', borderRadius: '10px'}}><img src={logo} style={{width: '85%', height: '85%'}}/></Box>
+        <Box sx={{height : '90%', width : '15%', padding : '5px', backgroundColor: 'black', borderRadius: '10px'}}>
+        <img src={logo} style={{width: '85%', height: '85%'}} alt = 'logo'/></Box>
 
         <Box sx={{display: 'flex', flexDirection: 'column'}}> 
         <Typography sx={{ fontSize: '12px',color: 'grey'}}>|/\|C</Typography>
@@ -35,7 +36,7 @@ export default function Sidebar() {
         </Box>
 
        
-        <img src={dp} style={{width: '15%', height: '60%'}}/>
+        <img src={dp} style={{width: '15%', height: '60%'}} alt = 'dp'/>
         
 
         
@@ -44,26 +45,26 @@ export default function Sidebar() {
     <Box sx={{ mt : '10px',display: 'flex', flexDirection: 'column'}}>
 
         <Box sx={{  padding : '10px',display : 'flex',  gap : '20px' , align : 'center', border : '1px solid #CCCCCC'}}> 
-        <img src={design} style={{ width: '10%', height: '70%'}}/> 
+        <img src={design} style={{ width: '10%', height: '70%'}} alt = 'design' /> 
         <Typography sx={{ mt : '10px',fontSize: '14px',color: 'black', fontWeight: 'bold'}}>Design Team</Typography>
         <Button sx={{ mt : '10px',height : '30px', ml : 'auto', borderRadius: '10px', border : '1px solid #CCCCCC', fontSize: '12px',backgroundColor: 'lightgrey', color: 'grey', fontWeight: 'bold'}}> X + 1 </Button>
         </Box>
 
 
         <Box sx={{  padding : '10px',display : 'flex',  gap : '20px' , align : 'center', border : '1px solid #CCCCCC'}}> 
-        <img src={marketing} style={{ width: '10%', height: '70%'}}/> 
+        <img src={marketing} style={{ width: '10%', height: '70%'}} alt = 'marketing' /> 
         <Typography sx={{ mt : '10px',fontSize: '14px',color: 'black', fontWeight: 'bold'}}>Marketing Team</Typography>
         <Button sx={{ mt : '10px',height : '30px', ml : 'auto', borderRadius: '10px', border : '1px solid #CCCCCC', fontSize: '12px',backgroundColor: 'lightgrey', color: 'grey', fontWeight: 'bold'}}> X + 1 </Button>
         </Box>
 
         <Box sx={{  padding : '10px',display : 'flex',  gap : '20px' , align : 'center', border : '1px solid #CCCCCC'}}> 
-        <img src={development} style={{width: '10%', height: '70%'}}/> 
+        <img src={development} style={{width: '10%', height: '70%'}} alt = 'development' /> 
         <Typography sx={{ mt : '10px',fontSize: '14px',color: 'black', fontWeight: 'bold'}}>Development team</Typography>
         <Button sx={{ mt : '10px',height : '30px', ml : 'auto', borderRadius: '10px', border : '1px solid #CCCCCC', fontSize: '12px',backgroundColor: 'lightgrey', color: 'grey', fontWeight: 'bold'}}> X + 1 </Button>
         </Box>
 
         <Box sx={{  padding : '10px',display : 'flex' , align : 'center', border : '1px solid #CCCCCC'}}> 
-        <img src={form} style={{width: '10%', height: '70%'}}/> 
+        <img src={form} style={{width: '10%', height: '70%'}} alt = 'form'/> 
         <Typography sx={{ ml : '20px',mt : '5px',fontSize: '14px',color: 'grey', fontWeight: 'bold'}}>Create a form</Typography>
         </Box>
 
@@ -143,7 +144,7 @@ export default function Sidebar() {
         <Box sx={{ padding: '10px', display: 'flex', align: 'center', cursor: 'pointer' }}>
          <QuestionMarkOutlinedIcon sx={{ ml: '5px', mt: '10px', color: 'grey' }}/>
           <Typography sx={{ml: '20px', mt: '10px', fontSize: '14px', color: 'grey', fontWeight: 'bold' }}>days left on trial</Typography>
-          <Button  sx={{ml :'20px', mt: '10px', color:'white',  backgroundColor:'black' , width : '100px', ml:'auto', mt: '10px', fontSize:  '10px' }}>Add billing</Button>
+          <Button  sx={{ml : 'auto', mt: '10px', color:'white',  backgroundColor:'black' , width : '100px', fontSize:  '10px' }}>Add billing</Button>
         </Box>
 
         </Box>
